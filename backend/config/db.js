@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 
 const connectDB = async () => {
     try{
-        const conn = await mongoose.connect('mongodb+srv://huzaifa97:qw4hddqcrg@cluster0.fpmt9.mongodb.net/flutter_node?retryWrites=true&w=majority', {
+        const conn = await mongoose.connect('url', {
             useUnifiedTopology:true,
             useNewUrlParser:true,
             useCreateIndex:true
